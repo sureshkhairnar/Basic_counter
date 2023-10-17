@@ -29,7 +29,6 @@ function App() {
           style={{
             textAlign: 'center',
             fontWeight: 'bold',
-            textDecoration: 'underline',
             fontSize: '24px',
           }}
         >
