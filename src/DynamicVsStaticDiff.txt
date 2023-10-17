@@ -1,0 +1,17 @@
+1] Dynamic Languages:
+- Type Checking:
+  - Type checking occurs at runtime, which means that variable types are determined when the code is executed.
+- Flexibility:
+  - More flexible as you can change variable types and structures during runtime.
+- Error Detection:
+  - Errors, especially type-related errors, detected at runtime, potentially leading to unexpected crashes.
+- In process map there are segments like Global area (all variables with var keyword or without keyword added in this area as a reference only), Heap(actual variable name and values are stored in this memory , also functions and pointing to global area variables) and Call Stack(having functions in stack order for execution).
+
+2] Static Languages:
+- Type Checking:
+  - Type checking occurs at compiletime, which means that variable types are determined when the code is compiled.
+- Flexibility:
+  - Offers less flexibility as you can not change variable types and structures during compiletime.
+- Error Detection:
+  - Errors detected at compiletime.
+- In process map there are segments like Code (binary or machine code in form of 0's and 1's), Data, Heap and Call Stack.

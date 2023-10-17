@@ -1,0 +1,11 @@
+Compilation Process:
+- Firstly we will write the code in any high level language like javascript, we called it as a source code not a program.
+- after that when we run that code then it firstly it will be compiled by the compiler and converted into binary format that is 1 and 0's.
+- after that conversion the linker will use the required functions and libraries to combine that compiled code files into a single executable file, then we can call it as a program (converted into machine level language now).
+- so its overall compilation process, and after that it will run on our machine.
+
+Process Map:
+- when machine gets a program to execute then it will be gets in RAM memory of machine.
+- there are different segments are mapped in this memory like a diagram, segments are like firstly code segment is there which contains all compiled data.
+- second one is heap segment which contains all declared variables inside the functions.
+- and last one stack segment which contains stack of all the functions and contineously monitoring which functions are executing and adding into an order like stack for execution.
